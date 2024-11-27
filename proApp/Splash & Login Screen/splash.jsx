@@ -63,7 +63,7 @@ const Splash = () => {
             {displayText}
           </Text>
         </View>
-        <TouchableOpacity style={styles.buttonContainer} onPress={() => navigation.navigate("Splash2",{genre})}>
+        <TouchableOpacity style={styles.buttonContainer} onPress={() => navigation.navigate("AcountDet",{genre})}>
           <Animated.Image
             source={NextP}
             style={[styles.button, { transform: [{ translateX: translateXButton }] }]}

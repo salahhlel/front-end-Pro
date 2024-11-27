@@ -91,7 +91,7 @@ const Splash2 = () => {
         
           <TouchableOpacity 
             style={genre === 'man' ? styles.buttonContainer2Man : styles.buttonContainer2}
-            onPress={() => navigation.navigate("SignUp",{genre})}
+            onPress={() => navigation.navigate("SignIn",{genre})}
             >
             <Text style={styles.textstyle}>Sign Up</Text>
           </TouchableOpacity>
